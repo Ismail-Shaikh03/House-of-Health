@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Information Portal</title>
+<link rel="stylesheet" href="GeneralFormStyle.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <a href="MainPortal4.html">HOME</a>
+            <a href="SearchReceptionist4.php">Search a Receptionist Account</a>
+            <a href="PatientUpdateForm4.html">Update Patient Information</a>
+            <a href="RequestAppointment4.html">Schedule Patient Appointment</a>
+            <a href="CancelAppointment4.html">Cancel Patient Appointment</a>
+            <a href="ScheduleProcedure4.html">Schedule Patient Procedure</a>
+            <a href="CancelProcedure4.html">Cancel Patient Procedure</a>
+            <a href="CreatePatientForm4.html">Create Patient Account</a>
+        </div>
+    </nav>
+<h1>House of Health:Verify Patient Form</h1>
+<form method="POST" action="SearchPatient4.php">
+<p>
+    <label for="patientFirstName">Enter Patient First Name:</label>
+    <input name="patientFirstName" id="patientFirstName" placeholder="Ex:John"><strong class="required">Required</strong>
+</p>
+<p>
+    <label for="patientLastName">Enter Patient Last Name:</label>
+    <input name="patientLastName" id="patientLastName" placeholder="Ex:Doe"><strong class="required">Required</strong>
+</p>
+<p>
+    <label for="patientID">Enter Patient ID:</label>
+    <input name="patientID" id="patientID" placeholder="Ex:X"><strong class="required">Required</strong>
+</p>
+<p id="buttons">
+    <input id="submit" type="submit" value="Submit">
+    <input id="reset" type="reset" value="Reset">
+  </p>
+</form>
+<script src="PatientInfoPortalScripts4.js"></script>
+</body>
+</html>

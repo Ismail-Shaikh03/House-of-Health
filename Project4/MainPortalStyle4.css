@@ -1,0 +1,28 @@
+body{
+    border:solid black;
+    width:750px;
+    height:800px;
+    padding:10px;
+    background-image:url("v870-mynt-20_1_2.jpeg");
+    border-width:thick;
+    margin:auto;
+    color:#00008B;
+    font-weight:bold;
+
+}
+h1{
+    text-align:center;
+}
+p{
+    text-align:center;
+    padding:15px;
+}
+#buttons{
+    text-align:center;
+}
+.required{
+    color:red;
+}
+#email_required{
+visibility:hidden;
+}

@@ -1,0 +1,43 @@
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+.navigation{
+    overflow: hidden;
+    background-color: azure;
+}
+.navigation a{
+    display:inline-block;
+    text-align: center;
+    padding: 9px;
+    font-size: 14px;
+    text-decoration: none;
+}
+body{
+    border:solid black;
+    width: 750px;
+    height:600px;
+    padding-top: 25px;
+    padding:10px;
+    margin:auto;
+    background-image:url("v870-mynt-20_1_2.jpeg");
+    border-width:thick;
+    color:#00008B;
+    font-weight:bold;
+
+}
+h1{
+    text-align:center;
+}
+p{
+    text-align:center;
+    padding:15px;
+}
+#buttons{
+    text-align:center;
+}
+.required{
+    color:red;
+}

@@ -1,0 +1,33 @@
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+.navigation{
+    overflow: hidden;
+    background-color: azure;
+}
+.navigation a{
+    display:inline-block;
+    text-align: center;
+    padding: 9px;
+    font-size: 14px;
+    text-decoration: none;
+}
+body{
+    background-image:url("v870-mynt-20_1_2.jpeg");
+    text-align: center;
+    font-weight: bold;
+    color:#00008B;
+    margin: auto;
+    }
+    table, th, td{
+       border:1px solid black;
+    }
+    table{
+        margin:auto;
+    }
+    th, td{
+        padding:1.75px;
+    }

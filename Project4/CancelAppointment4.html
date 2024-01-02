@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cancel Appointment</title>
+        <link rel="stylesheet" href="GeneralFormStyle.css">
+    </head>
+<body>
+    <nav>
+        <div class="navigation">
+            <a href="MainPortal4.html">HOME</a>
+            <a href="SearchReceptionist4.php">Search a Receptionist Account</a>
+            <a href="PatientUpdateForm4.html">Update Patient Information</a>
+            <a href="RequestAppointment4.html">Schedule Patient Appointment</a>
+            <a href="CancelAppointment4.html">Cancel Patient Appointment</a>
+            <a href="ScheduleProcedure4.html">Schedule Patient Procedure</a>
+            <a href="CancelProcedure4.html">Cancel Patient Procedure</a>
+            <a href="CreatePatientForm4.html">Create Patient Account</a>
+        </div>
+    </nav>
+<h1>House of Health:Cancel Appointment</h1>
+<form method="POST" action="CancelAppointment4.php">
+    <p>
+        <label for="appointmentID">Appointment ID:</label>
+        <input name="appointmentID" id="appointmentID" placeholder="Ex:XXX"><strong class="required">Required</strong>
+    </p>
+    <p id="buttons">
+        <input id="submit" type="submit" value="Submit">
+        <input id="reset" type="reset" value="Reset">
+      </p>
+</form>
+<script src="CancelAppointmentScripts4.js"></script>
+</body>
+</html>

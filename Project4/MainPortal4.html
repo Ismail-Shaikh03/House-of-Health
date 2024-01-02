@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>House of Health</title>
+  <link href="MainPortalStyle4.css" rel="stylesheet">
+</head>
+<body>
+<h1>House of Health</h1>
+<form method="POST" action="SearchReceptionist4.php">
+  <p>
+    <label for="first_name">Receptionist's First Name:</label>
+    <input name="first_name" id="first_name" placeholder="Ex:John" title="Enter First Name" class="inputs"><strong class="required">Required</strong>
+  </p>
+  <p>
+    <label for="last_name">Receptionist's Last Name:</label>
+    <input name="last_name" id="last_name" placeholder="Ex:Smith" title="Enter Last Name" class="inputs"><strong class="required">Required</strong>
+  </p>
+  <p>
+    <label for="phone_number">Receptionist's Phone Number:</label>
+    <input name="phone_number" id="phone_number" placeholder="Ex:XXX-XXX-XXXX" title="Enter Phone Number" class="inputs"><strong class="required">Required</strong>
+  </p>
+  <p>
+    <label for="email_address">Receptionist's Email Address:</label>
+    <input name="email_address" id="email_address" placeholder="Ex:Ex@gmail.com" title="Enter Email Address" class="inputs"><strong class="required" id="email_required">Required</strong>
+  </p>
+  <p>
+    <label for="password">Receptionist's Password:</label>
+    <input name="password" id="password" placeholder="Ex:z76!k90" title="Enter Password" class="inputs" ><strong class="required">Required</strong>
+  </p>
+  <p>
+    <label for="id_number">Receptionist's ID Number:</label>
+    <input name="id_number" id="id_number" placeholder="Ex:9758312" title="Enter ID Number" class="inputs"><strong class="required">Required</strong>
+  </p>
+  <p>
+    <label for="check_box">Check the box to request an email confirmation</label>
+    <input type="checkbox" name="check_box" id="check_box">
+  </p>
+  <p>
+    <label for="transaction">Select a Transaction:</label>
+    <select name="transaction" id="transaction">
+      <option value="Search Account">Search Account</option>
+      <option value="Book Appointment">Book Appointment</option>
+      <option value="Cancel Appointment">Cancel Appointment</option>
+      <option value="Request Procedures">Request Procedures</option>
+      <option value="Cancel Procedure">Cancel Procedures</option>
+      <option value="Update Patient Information">Update Patient Information</option>
+      <option value="Create New Patient Account">Create New Patient Account</option>
+    </select>
+  </p>
+  <p id="buttons">
+    <input id="submit" type="submit" value="Submit">
+    <input id="reset" type="reset" value="Reset">
+  </p>
+</form>
+<script src="MainPortalScripts4.js"></script>
+</body>
+</html>

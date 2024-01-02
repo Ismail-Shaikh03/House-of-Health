@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request Appointment</title>
+        <link rel="stylesheet" href="GeneralFormStyle.css">
+    </head>
+<body>
+    <nav>
+        <div class="navigation">
+            <a href="MainPortal4.html">HOME</a>
+            <a href="SearchReceptionist4.php">Search a Receptionist Account</a>
+            <a href="PatientUpdateForm4.html">Update Patient Information</a>
+            <a href="RequestAppointment4.html">Schedule Patient Appointment</a>
+            <a href="CancelAppointment4.html">Cancel Patient Appointment</a>
+            <a href="ScheduleProcedure4.html">Schedule Patient Procedure</a>
+            <a href="CancelProcedure4.html">Cancel Patient Procedure</a>
+            <a href="CreatePatientForm4.html">Create Patient Account</a>
+        </div>
+    </nav>
+<h1>House of Health:Request Appointment</h1>
+<form method="POST" action="RequestAppointment4.php">
+    <p>
+        <label for="appointmentDate">Enter Appointment Date:</label>
+        <input name="appointmentDate" id="appointmentDate" placeholder="Ex:November 5, 2023"><strong class="required">Required</strong>
+    </p>
+    <p>
+        <label for="appointmentType">Enter Appointmnet Type:</label>
+        <input name="appointmentType" id="appointmentType" placeholder="Ex:Ill Visit"><strong class="required">Required</strong>
+    </p>
+    <p>
+        <label for="doctorID">Enter Doctor ID:</label>
+        <input name="doctorID" id="doctorID" placeholder="Ex:X"><strong class="required">Required</strong>
+    </p>
+    <p>
+        <label for="procedureNeeded">Select if Procedure is Needed:</label>
+        <select name="procedureNeeded" id="procedureNeeded">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </p>
+    <p id="buttons">
+        <input id="submit" type="submit" value="Submit">
+        <input id="reset" type="reset" value="Reset">
+      </p>
+</form>
+<script src="RequestAppointmentScripts4.js"></script>
+</body>
+</html>
